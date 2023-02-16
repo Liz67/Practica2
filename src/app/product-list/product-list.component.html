@@ -8,8 +8,10 @@
 
   <button type="button" (click)="compartir()">Comprar</button>
 
-  <app-product-alerts [product]= "producto"></app-product-alerts>
-
+  <app-product-alerts
+    [product]="producto"
+    (notify)="onNotify()"
+  ></app-product-alerts>
 </div>
 
 <!-- 
