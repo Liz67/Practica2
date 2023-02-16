@@ -3,29 +3,39 @@ export interface Product {
   name: string;
   price: number;
   description: string;
+  stock: number;
 }
 
 export const products = [
   {
     id: 1,
-    name: 'Phone XL',
+    name: 'Aretes patito de baño',
     price: 799,
-    description: 'A large phone with one of the best screens'
+    description: 'Aretes personalizados para días calurosos',
+    stock: 10,
   },
   {
     id: 2,
-    name: 'Phone Mini',
+    name: 'Cenicero el pato volador',
     price: 699,
-    description: 'A great phone with one of the best cameras'
+    description: 'Cinero de arcilla moldeable que se adapta a tu estilo',
+    stock: 1,
   },
   {
     id: 3,
-    name: 'Phone Standard',
+    name: 'Maceta pato jardinero',
     price: 299,
-    description: ''
-  }
+    description: 'Maceta de barro con un diseño único',
+    stock: 10,
+  },
+  {
+    id: 4,
+    name: 'Crocks pato aguado',
+    price: 299,
+    description: 'Crocks para días de hueva, pero siempre con estilo',
+    stock: 20,
+  },
 ];
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
